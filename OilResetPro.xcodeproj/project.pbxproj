@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041337811EDE653E00A811EE /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041337801EDE653E00A811EE /* Realm.framework */; };
+		041337831EDE656400A811EE /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 041337821EDE656400A811EE /* libc++.1.tbd */; };
+		041337861EDEE05500A811EE /* SaveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 041337851EDEE05500A811EE /* SaveData.m */; };
+		041337891EE0384D00A811EE /* ProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041337881EE0384D00A811EE /* ProfileTableViewCell.m */; };
+		04160F181E8C3A8F00687477 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04160F171E8C3A8F00687477 /* UserModel.m */; };
+		04160F1C1E8C3F1900687477 /* ORPNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04160F1B1E8C3F1900687477 /* ORPNetworkManager.m */; };
+		042A9F1E1ED1B92E007D5C32 /* MEDynamicTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 042A9F1B1ED1B92E007D5C32 /* MEDynamicTransition.m */; };
+		042A9F1F1ED1B92E007D5C32 /* MEZoomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042A9F1D1ED1B92E007D5C32 /* MEZoomAnimationController.m */; };
+		0434B45A1EB227C0005AD8F2 /* AvenirLTStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0434B4571EB227C0005AD8F2 /* AvenirLTStd-Book.otf */; };
+		0434B45B1EB227C0005AD8F2 /* AvenirLTStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0434B4581EB227C0005AD8F2 /* AvenirLTStd-Light.otf */; };
+		0434B45C1EB227C0005AD8F2 /* AvenirLTStd-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0434B4591EB227C0005AD8F2 /* AvenirLTStd-Roman.otf */; };
+		0434B4631EB227D5005AD8F2 /* Santana-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0434B45D1EB227D5005AD8F2 /* Santana-Black.ttf */; };
+		0434B4641EB227D5005AD8F2 /* Santana-BlackCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0434B45E1EB227D5005AD8F2 /* Santana-BlackCondensed.ttf */; };
+		0434B4651EB227D5005AD8F2 /* Santana-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0434B45F1EB227D5005AD8F2 /* Santana-Bold.ttf */; };
+		0434B4661EB227D5005AD8F2 /* Santana-RegularCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0434B4601EB227D5005AD8F2 /* Santana-RegularCondensed.ttf */; };
+		0434B4671EB227D5005AD8F2 /* Santana.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0434B4611EB227D5005AD8F2 /* Santana.ttf */; };
+		0434B4681EB227D5005AD8F2 /* SantanaXtraCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0434B4621EB227D5005AD8F2 /* SantanaXtraCondensed.ttf */; };
+		045E99021E8B393A0051F85B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E99011E8B393A0051F85B /* RegisterViewController.m */; };
+		045E99051E8B590D0051F85B /* AuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E99041E8B590D0051F85B /* AuthViewController.m */; };
+		045E99071E8B791F0051F85B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 045E99061E8B791F0051F85B /* GoogleService-Info.plist */; };
+		045E990A1E8B80DF0051F85B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045E99091E8B80DF0051F85B /* StoreKit.framework */; };
+		046502D01E8D373500EFCF63 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046502CF1E8D373500EFCF63 /* AVFoundation.framework */; };
+		046502D21E8D379900EFCF63 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046502D11E8D379900EFCF63 /* AVKit.framework */; };
+		046502D71E8D9E1500EFCF63 /* VinliViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046502D61E8D9E1500EFCF63 /* VinliViewController.m */; };
+		046502DA1E8D9E2C00EFCF63 /* VinliDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046502D91E8D9E2C00EFCF63 /* VinliDetailViewController.m */; };
+		046502DF1E8F095E00EFCF63 /* DeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046502DE1E8F095D00EFCF63 /* DeviceCell.m */; };
+		046502E21E8F097600EFCF63 /* DeviceTrackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046502E11E8F097600EFCF63 /* DeviceTrackCell.m */; };
+		048219061EB42D1A00C38673 /* IntroPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048219051EB42D1A00C38673 /* IntroPageViewController.m */; };
+		048256771ECEF9300045B507 /* MEMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048256721ECEF9300045B507 /* MEMenuViewController.m */; };
+		048256781ECEF9300045B507 /* METransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 048256741ECEF9300045B507 /* METransitions.m */; };
+		0482567C1ED127500045B507 /* MEFoldAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482567B1ED127500045B507 /* MEFoldAnimationController.m */; };
+		049F15301F0A8B31003E6E25 /* MessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F152F1F0A8B31003E6E25 /* MessageData.m */; };
+		04A1B1D91E88B5D0005E0A51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B1D81E88B5D0005E0A51 /* main.m */; };
+		04A1B1DC1E88B5D0005E0A51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B1DB1E88B5D0005E0A51 /* AppDelegate.m */; };
+		04A1B1E21E88B5D0005E0A51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A1B1E01E88B5D0005E0A51 /* Main.storyboard */; };
+		04A1B1E51E88B5D0005E0A51 /* OilResetPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B1E31E88B5D0005E0A51 /* OilResetPro.xcdatamodeld */; };
+		04A1B1E71E88B5D0005E0A51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A1B1E61E88B5D0005E0A51 /* Assets.xcassets */; };
+		04A1B1EA1E88B5D0005E0A51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A1B1E81E88B5D0005E0A51 /* LaunchScreen.storyboard */; };
+		04A1B2191E88B712005E0A51 /* AllFetchData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B20F1E88B712005E0A51 /* AllFetchData.m */; };
+		04A1B21A1E88B712005E0A51 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2111E88B712005E0A51 /* Common.m */; };
+		04A1B21B1E88B712005E0A51 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2131E88B712005E0A51 /* IAPHelper.m */; };
+		04A1B21C1E88B712005E0A51 /* ORPDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2161E88B712005E0A51 /* ORPDataClass.m */; };
+		04A1B21D1E88B712005E0A51 /* UserHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2181E88B712005E0A51 /* UserHelper.m */; };
+		04A1B2211E88B755005E0A51 /* IntroScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2201E88B755005E0A51 /* IntroScreenViewController.m */; };
+		04A1B2241E88B773005E0A51 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2231E88B773005E0A51 /* SplashViewController.m */; };
+		04A1B2271E88B7CB005E0A51 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2261E88B7CB005E0A51 /* HomeViewController.m */; };
+		04A1B22A1E88B7E1005E0A51 /* YearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2291E88B7E1005E0A51 /* YearViewController.m */; };
+		04A1B22D1E88B80C005E0A51 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B22C1E88B80C005E0A51 /* ModelViewController.m */; };
+		04A1B2301E88B820005E0A51 /* ResetProcedureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B22F1E88B820005E0A51 /* ResetProcedureViewController.m */; };
+		04A1B2331E88B830005E0A51 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2321E88B830005E0A51 /* SettingViewController.m */; };
+		04A1B2981E88E998005E0A51 /* CargoBay.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2971E88E998005E0A51 /* CargoBay.m */; };
+		04A1B2A21E88F22F005E0A51 /* AdsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2A01E88F22F005E0A51 /* AdsCell.m */; };
+		04A1B2A31E88F22F005E0A51 /* AdsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A1B2A11E88F22F005E0A51 /* AdsCell.xib */; };
+		04A1B2A71E88F23B005E0A51 /* ModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2A51E88F23B005E0A51 /* ModelCell.m */; };
+		04A1B2AC1E88F244005E0A51 /* MakeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2AA1E88F244005E0A51 /* MakeCell.m */; };
+		04A1B2B61E88F25D005E0A51 /* SearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2B41E88F25D005E0A51 /* SearchResultCell.m */; };
+		04A1B2BF1E8901C4005E0A51 /* MakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2BE1E8901C4005E0A51 /* MakeViewController.m */; };
+		04A1B2C11E890F56005E0A51 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1B2C01E890F56005E0A51 /* RevMobAds.framework */; };
+		04A1B2C61E8997C6005E0A51 /* TotalYearsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B2C51E8997C6005E0A51 /* TotalYearsCell.m */; };
+		04A1B2CB1E89D5D6005E0A51 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A1B2C91E89D5D6005E0A51 /* SearchResultCell.xib */; };
+		04CDBAF11ED397A500D01D85 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDBAF01ED397A500D01D85 /* ProfileViewController.m */; };
+		04CDBAF41ED5C7CF00D01D85 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDBAF31ED5C7CF00D01D85 /* MessageViewController.m */; };
+		04CDBAF71ED5E75600D01D85 /* AskMechanicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDBAF61ED5E75600D01D85 /* AskMechanicViewController.m */; };
+		04CDBAFA1ED625FF00D01D85 /* SavedResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDBAF91ED625FF00D01D85 /* SavedResetViewController.m */; };
+		F9539FF2A11F0B4AAAF81579 /* libPods-OilResetPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A75748949D1959D206D01A /* libPods-OilResetPro.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041337801EDE653E00A811EE /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		041337821EDE656400A811EE /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		041337841EDEE05500A811EE /* SaveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SaveData.h; path = DataClasses/SaveData.h; sourceTree = "<group>"; };
+		041337851EDEE05500A811EE /* SaveData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SaveData.m; path = DataClasses/SaveData.m; sourceTree = "<group>"; };
+		041337871EE0384D00A811EE /* ProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileTableViewCell.h; path = ViewControllers/Views/ProfileTableViewCell.h; sourceTree = "<group>"; };
+		041337881EE0384D00A811EE /* ProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileTableViewCell.m; path = ViewControllers/Views/ProfileTableViewCell.m; sourceTree = "<group>"; };
+		04160F161E8C3A8F00687477 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserModel.h; path = Model/UserModel.h; sourceTree = "<group>"; };
+		04160F171E8C3A8F00687477 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserModel.m; path = Model/UserModel.m; sourceTree = "<group>"; };
+		04160F1A1E8C3F1900687477 /* ORPNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORPNetworkManager.h; path = NetworkManager/ORPNetworkManager.h; sourceTree = "<group>"; };
+		04160F1B1E8C3F1900687477 /* ORPNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORPNetworkManager.m; path = NetworkManager/ORPNetworkManager.m; sourceTree = "<group>"; };
+		04160F1D1E8C43D000687477 /* NetworkLayerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkLayerProtocol.h; sourceTree = "<group>"; };
+		042A9F1A1ED1B92E007D5C32 /* MEDynamicTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEDynamicTransition.h; path = ViewControllers/Views/MEDynamicTransition.h; sourceTree = "<group>"; };
+		042A9F1B1ED1B92E007D5C32 /* MEDynamicTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEDynamicTransition.m; path = ViewControllers/Views/MEDynamicTransition.m; sourceTree = "<group>"; };
+		042A9F1C1ED1B92E007D5C32 /* MEZoomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEZoomAnimationController.h; path = ViewControllers/Views/MEZoomAnimationController.h; sourceTree = "<group>"; };
+		042A9F1D1ED1B92E007D5C32 /* MEZoomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEZoomAnimationController.m; path = ViewControllers/Views/MEZoomAnimationController.m; sourceTree = "<group>"; };
+		0434B4571EB227C0005AD8F2 /* AvenirLTStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Book.otf"; sourceTree = "<group>"; };
+		0434B4581EB227C0005AD8F2 /* AvenirLTStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Light.otf"; sourceTree = "<group>"; };
+		0434B4591EB227C0005AD8F2 /* AvenirLTStd-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Roman.otf"; sourceTree = "<group>"; };
+		0434B45D1EB227D5005AD8F2 /* Santana-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Santana-Black.ttf"; sourceTree = "<group>"; };
+		0434B45E1EB227D5005AD8F2 /* Santana-BlackCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Santana-BlackCondensed.ttf"; sourceTree = "<group>"; };
+		0434B45F1EB227D5005AD8F2 /* Santana-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Santana-Bold.ttf"; sourceTree = "<group>"; };
+		0434B4601EB227D5005AD8F2 /* Santana-RegularCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Santana-RegularCondensed.ttf"; sourceTree = "<group>"; };
+		0434B4611EB227D5005AD8F2 /* Santana.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Santana.ttf; sourceTree = "<group>"; };
+		0434B4621EB227D5005AD8F2 /* SantanaXtraCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SantanaXtraCondensed.ttf; sourceTree = "<group>"; };
+		045E99001E8B393A0051F85B /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = ViewControllers/RegisterViewController.h; sourceTree = "<group>"; };
+		045E99011E8B393A0051F85B /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = ViewControllers/RegisterViewController.m; sourceTree = "<group>"; };
+		045E99031E8B590D0051F85B /* AuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthViewController.h; path = ViewControllers/AuthViewController.h; sourceTree = "<group>"; };
+		045E99041E8B590D0051F85B /* AuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AuthViewController.m; path = ViewControllers/AuthViewController.m; sourceTree = "<group>"; };
+		045E99061E8B791F0051F85B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		045E99081E8B80D70051F85B /* OilResetPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OilResetPro.entitlements; sourceTree = "<group>"; };
+		045E99091E8B80DF0051F85B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		046502CF1E8D373500EFCF63 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		046502D11E8D379900EFCF63 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		046502D31E8D90DD00EFCF63 /* secrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secrets.h; sourceTree = "<group>"; };
+		046502D51E8D9E1500EFCF63 /* VinliViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VinliViewController.h; path = ViewControllers/VinliViewController.h; sourceTree = "<group>"; };
+		046502D61E8D9E1500EFCF63 /* VinliViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VinliViewController.m; path = ViewControllers/VinliViewController.m; sourceTree = "<group>"; };
+		046502D81E8D9E2C00EFCF63 /* VinliDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VinliDetailViewController.h; path = ViewControllers/VinliDetailViewController.h; sourceTree = "<group>"; };
+		046502D91E8D9E2C00EFCF63 /* VinliDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VinliDetailViewController.m; path = ViewControllers/VinliDetailViewController.m; sourceTree = "<group>"; };
+		046502DD1E8F095D00EFCF63 /* DeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceCell.h; path = ViewControllers/Views/DeviceCell/DeviceCell.h; sourceTree = "<group>"; };
+		046502DE1E8F095D00EFCF63 /* DeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceCell.m; path = ViewControllers/Views/DeviceCell/DeviceCell.m; sourceTree = "<group>"; };
+		046502E01E8F097600EFCF63 /* DeviceTrackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceTrackCell.h; path = ViewControllers/Views/DeviceTrackCell/DeviceTrackCell.h; sourceTree = "<group>"; };
+		046502E11E8F097600EFCF63 /* DeviceTrackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceTrackCell.m; path = ViewControllers/Views/DeviceTrackCell/DeviceTrackCell.m; sourceTree = "<group>"; };
+		048219041EB42D1A00C38673 /* IntroPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroPageViewController.h; path = ViewControllers/IntroPageViewController.h; sourceTree = "<group>"; };
+		048219051EB42D1A00C38673 /* IntroPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroPageViewController.m; path = ViewControllers/IntroPageViewController.m; sourceTree = "<group>"; };
+		048256711ECEF9300045B507 /* MEMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEMenuViewController.h; path = ViewControllers/Views/MEMenuViewController.h; sourceTree = "<group>"; };
+		048256721ECEF9300045B507 /* MEMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEMenuViewController.m; path = ViewControllers/Views/MEMenuViewController.m; sourceTree = "<group>"; };
+		048256731ECEF9300045B507 /* METransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = METransitions.h; path = ViewControllers/Views/METransitions.h; sourceTree = "<group>"; };
+		048256741ECEF9300045B507 /* METransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = METransitions.m; path = ViewControllers/Views/METransitions.m; sourceTree = "<group>"; };
+		0482567A1ED127500045B507 /* MEFoldAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEFoldAnimationController.h; path = ViewControllers/Views/MEFoldAnimationController.h; sourceTree = "<group>"; };
+		0482567B1ED127500045B507 /* MEFoldAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEFoldAnimationController.m; path = ViewControllers/Views/MEFoldAnimationController.m; sourceTree = "<group>"; };
+		049F152E1F0A8B31003E6E25 /* MessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageData.h; path = DataClasses/MessageData.h; sourceTree = "<group>"; };
+		049F152F1F0A8B31003E6E25 /* MessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageData.m; path = DataClasses/MessageData.m; sourceTree = "<group>"; };
+		04A1B1D41E88B5D0005E0A51 /* OilResetPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OilResetPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A1B1D81E88B5D0005E0A51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A1B1DA1E88B5D0005E0A51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04A1B1DB1E88B5D0005E0A51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04A1B1E11E88B5D0005E0A51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A1B1E41E88B5D0005E0A51 /* OilResetPro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OilResetPro.xcdatamodel; sourceTree = "<group>"; };
+		04A1B1E61E88B5D0005E0A51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A1B1E91E88B5D0005E0A51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A1B1EB1E88B5D0005E0A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A1B1F41E88B5D0005E0A51 /* OilResetProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OilResetProTests.m; sourceTree = "<group>"; };
+		04A1B1F61E88B5D0005E0A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A1B1FF1E88B5D0005E0A51 /* OilResetProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OilResetProUITests.m; sourceTree = "<group>"; };
+		04A1B2011E88B5D0005E0A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A1B20E1E88B712005E0A51 /* AllFetchData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllFetchData.h; path = DataClasses/AllFetchData.h; sourceTree = "<group>"; };
+		04A1B20F1E88B712005E0A51 /* AllFetchData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllFetchData.m; path = DataClasses/AllFetchData.m; sourceTree = "<group>"; };
+		04A1B2101E88B712005E0A51 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = DataClasses/Common.h; sourceTree = "<group>"; };
+		04A1B2111E88B712005E0A51 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = DataClasses/Common.m; sourceTree = "<group>"; };
+		04A1B2121E88B712005E0A51 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAPHelper.h; path = DataClasses/IAPHelper.h; sourceTree = "<group>"; };
+		04A1B2131E88B712005E0A51 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IAPHelper.m; path = DataClasses/IAPHelper.m; sourceTree = "<group>"; };
+		04A1B2141E88B712005E0A51 /* KeyWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyWord.h; path = DataClasses/KeyWord.h; sourceTree = "<group>"; };
+		04A1B2151E88B712005E0A51 /* ORPDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORPDataClass.h; path = DataClasses/ORPDataClass.h; sourceTree = "<group>"; };
+		04A1B2161E88B712005E0A51 /* ORPDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORPDataClass.m; path = DataClasses/ORPDataClass.m; sourceTree = "<group>"; };
+		04A1B2171E88B712005E0A51 /* UserHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserHelper.h; path = DataClasses/UserHelper.h; sourceTree = "<group>"; };
+		04A1B2181E88B712005E0A51 /* UserHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserHelper.m; path = DataClasses/UserHelper.m; sourceTree = "<group>"; };
+		04A1B21F1E88B755005E0A51 /* IntroScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroScreenViewController.h; path = ViewControllers/IntroScreenViewController.h; sourceTree = "<group>"; };
+		04A1B2201E88B755005E0A51 /* IntroScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroScreenViewController.m; path = ViewControllers/IntroScreenViewController.m; sourceTree = "<group>"; };
+		04A1B2221E88B773005E0A51 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplashViewController.h; path = ViewControllers/SplashViewController.h; sourceTree = "<group>"; };
+		04A1B2231E88B773005E0A51 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplashViewController.m; path = ViewControllers/SplashViewController.m; sourceTree = "<group>"; };
+		04A1B2251E88B7CB005E0A51 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ViewControllers/HomeViewController.h; sourceTree = "<group>"; };
+		04A1B2261E88B7CB005E0A51 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ViewControllers/HomeViewController.m; sourceTree = "<group>"; };
+		04A1B2281E88B7E1005E0A51 /* YearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YearViewController.h; path = ViewControllers/YearViewController.h; sourceTree = "<group>"; };
+		04A1B2291E88B7E1005E0A51 /* YearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YearViewController.m; path = ViewControllers/YearViewController.m; sourceTree = "<group>"; };
+		04A1B22B1E88B80C005E0A51 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelViewController.h; path = ViewControllers/ModelViewController.h; sourceTree = "<group>"; };
+		04A1B22C1E88B80C005E0A51 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelViewController.m; path = ViewControllers/ModelViewController.m; sourceTree = "<group>"; };
+		04A1B22E1E88B820005E0A51 /* ResetProcedureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResetProcedureViewController.h; path = ViewControllers/ResetProcedureViewController.h; sourceTree = "<group>"; };
+		04A1B22F1E88B820005E0A51 /* ResetProcedureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResetProcedureViewController.m; path = ViewControllers/ResetProcedureViewController.m; sourceTree = "<group>"; };
+		04A1B2311E88B830005E0A51 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = ViewControllers/SettingViewController.h; sourceTree = "<group>"; };
+		04A1B2321E88B830005E0A51 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = ViewControllers/SettingViewController.m; sourceTree = "<group>"; };
+		04A1B25C1E88CB0A005E0A51 /* OilResetPro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OilResetPro-Prefix.pch"; sourceTree = "<group>"; };
+		04A1B2941E88E217005E0A51 /* JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		04A1B2961E88E998005E0A51 /* CargoBay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CargoBay.h; path = Libraries/CargoBay/CargoBay.h; sourceTree = "<group>"; };
+		04A1B2971E88E998005E0A51 /* CargoBay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CargoBay.m; path = Libraries/CargoBay/CargoBay.m; sourceTree = "<group>"; };
+		04A1B29F1E88F22F005E0A51 /* AdsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdsCell.h; path = ViewControllers/Views/AdsCell/AdsCell.h; sourceTree = "<group>"; };
+		04A1B2A01E88F22F005E0A51 /* AdsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdsCell.m; path = ViewControllers/Views/AdsCell/AdsCell.m; sourceTree = "<group>"; };
+		04A1B2A11E88F22F005E0A51 /* AdsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdsCell.xib; path = ViewControllers/Views/AdsCell/AdsCell.xib; sourceTree = "<group>"; };
+		04A1B2A41E88F23B005E0A51 /* ModelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelCell.h; path = ViewControllers/Views/ModelCell/ModelCell.h; sourceTree = "<group>"; };
+		04A1B2A51E88F23B005E0A51 /* ModelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelCell.m; path = ViewControllers/Views/ModelCell/ModelCell.m; sourceTree = "<group>"; };
+		04A1B2A91E88F244005E0A51 /* MakeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MakeCell.h; path = ViewControllers/Views/MakeCell/MakeCell.h; sourceTree = "<group>"; };
+		04A1B2AA1E88F244005E0A51 /* MakeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MakeCell.m; path = ViewControllers/Views/MakeCell/MakeCell.m; sourceTree = "<group>"; };
+		04A1B2B31E88F25D005E0A51 /* SearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultCell.h; path = ViewControllers/Views/SearchResultCell/SearchResultCell.h; sourceTree = "<group>"; };
+		04A1B2B41E88F25D005E0A51 /* SearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultCell.m; path = ViewControllers/Views/SearchResultCell/SearchResultCell.m; sourceTree = "<group>"; };
+		04A1B2BD1E8901C4005E0A51 /* MakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MakeViewController.h; path = ViewControllers/MakeViewController.h; sourceTree = "<group>"; };
+		04A1B2BE1E8901C4005E0A51 /* MakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MakeViewController.m; path = ViewControllers/MakeViewController.m; sourceTree = "<group>"; };
+		04A1B2C01E890F56005E0A51 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevMobAds.framework; path = OilResetPro/RevMobAds.framework; sourceTree = "<group>"; };
+		04A1B2C41E8997C6005E0A51 /* TotalYearsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TotalYearsCell.h; path = ViewControllers/Views/TotalYearsCell/TotalYearsCell.h; sourceTree = "<group>"; };
+		04A1B2C51E8997C6005E0A51 /* TotalYearsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TotalYearsCell.m; path = ViewControllers/Views/TotalYearsCell/TotalYearsCell.m; sourceTree = "<group>"; };
+		04A1B2C91E89D5D6005E0A51 /* SearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchResultCell.xib; path = ViewControllers/Views/SearchResultCell/SearchResultCell.xib; sourceTree = "<group>"; };
+		04CDBAEF1ED397A500D01D85 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ViewControllers/ProfileViewController.h; sourceTree = "<group>"; };
+		04CDBAF01ED397A500D01D85 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ViewControllers/ProfileViewController.m; sourceTree = "<group>"; };
+		04CDBAF21ED5C7CF00D01D85 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageViewController.h; path = ViewControllers/MessageViewController.h; sourceTree = "<group>"; };
+		04CDBAF31ED5C7CF00D01D85 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageViewController.m; path = ViewControllers/MessageViewController.m; sourceTree = "<group>"; };
+		04CDBAF51ED5E75600D01D85 /* AskMechanicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AskMechanicViewController.h; path = ViewControllers/AskMechanicViewController.h; sourceTree = "<group>"; };
+		04CDBAF61ED5E75600D01D85 /* AskMechanicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AskMechanicViewController.m; path = ViewControllers/AskMechanicViewController.m; sourceTree = "<group>"; };
+		04CDBAF81ED625FF00D01D85 /* SavedResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SavedResetViewController.h; path = ViewControllers/SavedResetViewController.h; sourceTree = "<group>"; };
+		04CDBAF91ED625FF00D01D85 /* SavedResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SavedResetViewController.m; path = ViewControllers/SavedResetViewController.m; sourceTree = "<group>"; };
+		76580A9A752831B37681E812 /* Pods-OilResetPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OilResetPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-OilResetPro/Pods-OilResetPro.release.xcconfig"; sourceTree = "<group>"; };
+		E15B309B5A4DB445A7113C1B /* Pods-OilResetPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OilResetPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OilResetPro/Pods-OilResetPro.debug.xcconfig"; sourceTree = "<group>"; };
+		E5A75748949D1959D206D01A /* libPods-OilResetPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OilResetPro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A1B1D11E88B5D0005E0A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041337831EDE656400A811EE /* libc++.1.tbd in Frameworks */,
+				041337811EDE653E00A811EE /* Realm.framework in Frameworks */,
+				046502D21E8D379900EFCF63 /* AVKit.framework in Frameworks */,
+				046502D01E8D373500EFCF63 /* AVFoundation.framework in Frameworks */,
+				045E990A1E8B80DF0051F85B /* StoreKit.framework in Frameworks */,
+				04A1B2C11E890F56005E0A51 /* RevMobAds.framework in Frameworks */,
+				F9539FF2A11F0B4AAAF81579 /* libPods-OilResetPro.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04160F151E8C3A4900687477 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04160F161E8C3A8F00687477 /* UserModel.h */,
+				04160F171E8C3A8F00687477 /* UserModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04160F191E8C3ED500687477 /* NetWrorkManager */ = {
+			isa = PBXGroup;
+			children = (
+				04160F1A1E8C3F1900687477 /* ORPNetworkManager.h */,
+				04160F1B1E8C3F1900687477 /* ORPNetworkManager.m */,
+				04160F1D1E8C43D000687477 /* NetworkLayerProtocol.h */,
+			);
+			name = NetWrorkManager;
+			sourceTree = "<group>";
+		};
+		0434B4561EB227A0005AD8F2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0434B45D1EB227D5005AD8F2 /* Santana-Black.ttf */,
+				0434B45E1EB227D5005AD8F2 /* Santana-BlackCondensed.ttf */,
+				0434B45F1EB227D5005AD8F2 /* Santana-Bold.ttf */,
+				0434B4601EB227D5005AD8F2 /* Santana-RegularCondensed.ttf */,
+				0434B4611EB227D5005AD8F2 /* Santana.ttf */,
+				0434B4621EB227D5005AD8F2 /* SantanaXtraCondensed.ttf */,
+				0434B4571EB227C0005AD8F2 /* AvenirLTStd-Book.otf */,
+				0434B4581EB227C0005AD8F2 /* AvenirLTStd-Light.otf */,
+				0434B4591EB227C0005AD8F2 /* AvenirLTStd-Roman.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		046502DB1E8F092500EFCF63 /* DeviceCell */ = {
+			isa = PBXGroup;
+			children = (
+				046502DD1E8F095D00EFCF63 /* DeviceCell.h */,
+				046502DE1E8F095D00EFCF63 /* DeviceCell.m */,
+			);
+			name = DeviceCell;
+			sourceTree = "<group>";
+		};
+		046502DC1E8F092D00EFCF63 /* DeviceTrackCell */ = {
+			isa = PBXGroup;
+			children = (
+				046502E01E8F097600EFCF63 /* DeviceTrackCell.h */,
+				046502E11E8F097600EFCF63 /* DeviceTrackCell.m */,
+			);
+			name = DeviceTrackCell;
+			sourceTree = "<group>";
+		};
+		04A1B1CB1E88B5D0005E0A51 = {
+			isa = PBXGroup;
+			children = (
+				04A1B1D61E88B5D0005E0A51 /* OilResetPro */,
+				04A1B1F31E88B5D0005E0A51 /* OilResetProTests */,
+				04A1B1FE1E88B5D0005E0A51 /* OilResetProUITests */,
+				04A1B1D51E88B5D0005E0A51 /* Products */,
+				AEC51E73A5438B1041646CC5 /* Pods */,
+				3D84BE711804359866D6034F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04A1B1D51E88B5D0005E0A51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B1D41E88B5D0005E0A51 /* OilResetPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A1B1D61E88B5D0005E0A51 /* OilResetPro */ = {
+			isa = PBXGroup;
+			children = (
+				045E99081E8B80D70051F85B /* OilResetPro.entitlements */,
+				04160F191E8C3ED500687477 /* NetWrorkManager */,
+				04A1B2991E88F1D9005E0A51 /* Views */,
+				04160F151E8C3A4900687477 /* Model */,
+				04A1B20D1E88B6F6005E0A51 /* DataClasses */,
+				04A1B21E1E88B71F005E0A51 /* ViewControllers */,
+				04A1B1E81E88B5D0005E0A51 /* LaunchScreen.storyboard */,
+				04A1B1E01E88B5D0005E0A51 /* Main.storyboard */,
+				04A1B1E61E88B5D0005E0A51 /* Assets.xcassets */,
+				0434B4561EB227A0005AD8F2 /* Font */,
+				045E99061E8B791F0051F85B /* GoogleService-Info.plist */,
+				04A1B1DA1E88B5D0005E0A51 /* AppDelegate.h */,
+				04A1B1DB1E88B5D0005E0A51 /* AppDelegate.m */,
+				04A1B1EB1E88B5D0005E0A51 /* Info.plist */,
+				04A1B25C1E88CB0A005E0A51 /* OilResetPro-Prefix.pch */,
+				04A1B1E31E88B5D0005E0A51 /* OilResetPro.xcdatamodeld */,
+				04A1B1D71E88B5D0005E0A51 /* Supporting Files */,
+			);
+			path = OilResetPro;
+			sourceTree = "<group>";
+		};
+		04A1B1D71E88B5D0005E0A51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B1D81E88B5D0005E0A51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04A1B1F31E88B5D0005E0A51 /* OilResetProTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B1F41E88B5D0005E0A51 /* OilResetProTests.m */,
+				04A1B1F61E88B5D0005E0A51 /* Info.plist */,
+			);
+			path = OilResetProTests;
+			sourceTree = "<group>";
+		};
+		04A1B1FE1E88B5D0005E0A51 /* OilResetProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B1FF1E88B5D0005E0A51 /* OilResetProUITests.m */,
+				04A1B2011E88B5D0005E0A51 /* Info.plist */,
+			);
+			path = OilResetProUITests;
+			sourceTree = "<group>";
+		};
+		04A1B20D1E88B6F6005E0A51 /* DataClasses */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B2951E88E95D005E0A51 /* Cargobay */,
+				04A1B20E1E88B712005E0A51 /* AllFetchData.h */,
+				04A1B20F1E88B712005E0A51 /* AllFetchData.m */,
+				04A1B2101E88B712005E0A51 /* Common.h */,
+				04A1B2111E88B712005E0A51 /* Common.m */,
+				04A1B2121E88B712005E0A51 /* IAPHelper.h */,
+				04A1B2131E88B712005E0A51 /* IAPHelper.m */,
+				04A1B2141E88B712005E0A51 /* KeyWord.h */,
+				04A1B2151E88B712005E0A51 /* ORPDataClass.h */,
+				04A1B2161E88B712005E0A51 /* ORPDataClass.m */,
+				04A1B2171E88B712005E0A51 /* UserHelper.h */,
+				04A1B2181E88B712005E0A51 /* UserHelper.m */,
+				04A1B2941E88E217005E0A51 /* JSON.h */,
+				046502D31E8D90DD00EFCF63 /* secrets.h */,
+				041337841EDEE05500A811EE /* SaveData.h */,
+				041337851EDEE05500A811EE /* SaveData.m */,
+				049F152E1F0A8B31003E6E25 /* MessageData.h */,
+				049F152F1F0A8B31003E6E25 /* MessageData.m */,
+			);
+			name = DataClasses;
+			sourceTree = "<group>";
+		};
+		04A1B21E1E88B71F005E0A51 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B21F1E88B755005E0A51 /* IntroScreenViewController.h */,
+				04A1B2201E88B755005E0A51 /* IntroScreenViewController.m */,
+				048219041EB42D1A00C38673 /* IntroPageViewController.h */,
+				048219051EB42D1A00C38673 /* IntroPageViewController.m */,
+				04A1B2221E88B773005E0A51 /* SplashViewController.h */,
+				04A1B2231E88B773005E0A51 /* SplashViewController.m */,
+				045E99031E8B590D0051F85B /* AuthViewController.h */,
+				045E99041E8B590D0051F85B /* AuthViewController.m */,
+				045E99001E8B393A0051F85B /* RegisterViewController.h */,
+				045E99011E8B393A0051F85B /* RegisterViewController.m */,
+				04A1B2251E88B7CB005E0A51 /* HomeViewController.h */,
+				04A1B2261E88B7CB005E0A51 /* HomeViewController.m */,
+				04A1B2281E88B7E1005E0A51 /* YearViewController.h */,
+				04A1B2291E88B7E1005E0A51 /* YearViewController.m */,
+				04A1B2BD1E8901C4005E0A51 /* MakeViewController.h */,
+				04A1B2BE1E8901C4005E0A51 /* MakeViewController.m */,
+				04A1B22B1E88B80C005E0A51 /* ModelViewController.h */,
+				04A1B22C1E88B80C005E0A51 /* ModelViewController.m */,
+				04A1B22E1E88B820005E0A51 /* ResetProcedureViewController.h */,
+				04A1B22F1E88B820005E0A51 /* ResetProcedureViewController.m */,
+				04A1B2311E88B830005E0A51 /* SettingViewController.h */,
+				04A1B2321E88B830005E0A51 /* SettingViewController.m */,
+				046502D51E8D9E1500EFCF63 /* VinliViewController.h */,
+				046502D61E8D9E1500EFCF63 /* VinliViewController.m */,
+				046502D81E8D9E2C00EFCF63 /* VinliDetailViewController.h */,
+				046502D91E8D9E2C00EFCF63 /* VinliDetailViewController.m */,
+				04CDBAEF1ED397A500D01D85 /* ProfileViewController.h */,
+				04CDBAF01ED397A500D01D85 /* ProfileViewController.m */,
+				04CDBAF21ED5C7CF00D01D85 /* MessageViewController.h */,
+				04CDBAF31ED5C7CF00D01D85 /* MessageViewController.m */,
+				04CDBAF51ED5E75600D01D85 /* AskMechanicViewController.h */,
+				04CDBAF61ED5E75600D01D85 /* AskMechanicViewController.m */,
+				04CDBAF81ED625FF00D01D85 /* SavedResetViewController.h */,
+				04CDBAF91ED625FF00D01D85 /* SavedResetViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04A1B2951E88E95D005E0A51 /* Cargobay */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B2961E88E998005E0A51 /* CargoBay.h */,
+				04A1B2971E88E998005E0A51 /* CargoBay.m */,
+			);
+			name = Cargobay;
+			sourceTree = "<group>";
+		};
+		04A1B2991E88F1D9005E0A51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				042A9F1A1ED1B92E007D5C32 /* MEDynamicTransition.h */,
+				042A9F1B1ED1B92E007D5C32 /* MEDynamicTransition.m */,
+				042A9F1C1ED1B92E007D5C32 /* MEZoomAnimationController.h */,
+				042A9F1D1ED1B92E007D5C32 /* MEZoomAnimationController.m */,
+				0482567A1ED127500045B507 /* MEFoldAnimationController.h */,
+				0482567B1ED127500045B507 /* MEFoldAnimationController.m */,
+				048256711ECEF9300045B507 /* MEMenuViewController.h */,
+				048256721ECEF9300045B507 /* MEMenuViewController.m */,
+				048256731ECEF9300045B507 /* METransitions.h */,
+				048256741ECEF9300045B507 /* METransitions.m */,
+				046502DC1E8F092D00EFCF63 /* DeviceTrackCell */,
+				046502DB1E8F092500EFCF63 /* DeviceCell */,
+				04A1B29E1E88F20F005E0A51 /* AdsCell */,
+				04A1B29D1E88F1ED005E0A51 /* ModelCell */,
+				04A1B29C1E88F1E7005E0A51 /* MakeCell */,
+				04A1B29B1E88F1E4005E0A51 /* TotalYearsCell */,
+				04A1B29A1E88F1E1005E0A51 /* SearchResultCell */,
+				041337871EE0384D00A811EE /* ProfileTableViewCell.h */,
+				041337881EE0384D00A811EE /* ProfileTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		04A1B29A1E88F1E1005E0A51 /* SearchResultCell */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B2B31E88F25D005E0A51 /* SearchResultCell.h */,
+				04A1B2B41E88F25D005E0A51 /* SearchResultCell.m */,
+				04A1B2C91E89D5D6005E0A51 /* SearchResultCell.xib */,
+			);
+			name = SearchResultCell;
+			sourceTree = "<group>";
+		};
+		04A1B29B1E88F1E4005E0A51 /* TotalYearsCell */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B2C41E8997C6005E0A51 /* TotalYearsCell.h */,
+				04A1B2C51E8997C6005E0A51 /* TotalYearsCell.m */,
+			);
+			name = TotalYearsCell;
+			sourceTree = "<group>";
+		};
+		04A1B29C1E88F1E7005E0A51 /* MakeCell */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B2A91E88F244005E0A51 /* MakeCell.h */,
+				04A1B2AA1E88F244005E0A51 /* MakeCell.m */,
+			);
+			name = MakeCell;
+			sourceTree = "<group>";
+		};
+		04A1B29D1E88F1ED005E0A51 /* ModelCell */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B2A41E88F23B005E0A51 /* ModelCell.h */,
+				04A1B2A51E88F23B005E0A51 /* ModelCell.m */,
+			);
+			name = ModelCell;
+			sourceTree = "<group>";
+		};
+		04A1B29E1E88F20F005E0A51 /* AdsCell */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B29F1E88F22F005E0A51 /* AdsCell.h */,
+				04A1B2A01E88F22F005E0A51 /* AdsCell.m */,
+				04A1B2A11E88F22F005E0A51 /* AdsCell.xib */,
+			);
+			name = AdsCell;
+			sourceTree = "<group>";
+		};
+		3D84BE711804359866D6034F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041337821EDE656400A811EE /* libc++.1.tbd */,
+				041337801EDE653E00A811EE /* Realm.framework */,
+				046502D11E8D379900EFCF63 /* AVKit.framework */,
+				046502CF1E8D373500EFCF63 /* AVFoundation.framework */,
+				045E99091E8B80DF0051F85B /* StoreKit.framework */,
+				04A1B2C01E890F56005E0A51 /* RevMobAds.framework */,
+				E5A75748949D1959D206D01A /* libPods-OilResetPro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEC51E73A5438B1041646CC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E15B309B5A4DB445A7113C1B /* Pods-OilResetPro.debug.xcconfig */,
+				76580A9A752831B37681E812 /* Pods-OilResetPro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A1B1D31E88B5D0005E0A51 /* OilResetPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A1B2041E88B5D0005E0A51 /* Build configuration list for PBXNativeTarget "OilResetPro" */;
+			buildPhases = (
+				D01432DC2F79E672F17817D2 /* [CP] Check Pods Manifest.lock */,
+				04A1B1D01E88B5D0005E0A51 /* Sources */,
+				04A1B1D11E88B5D0005E0A51 /* Frameworks */,
+				04A1B1D21E88B5D0005E0A51 /* Resources */,
+				46FBD3AE9AF16BA8585D679A /* [CP] Embed Pods Frameworks */,
+				DCE745576318DBA565C411D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OilResetPro;
+			productName = OilResetPro;
+			productReference = 04A1B1D41E88B5D0005E0A51 /* OilResetPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A1B1CC1E88B5D0005E0A51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = OilResetPro;
+				TargetAttributes = {
+					04A1B1D31E88B5D0005E0A51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F6DNE7SJ6R;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 04A1B1CF1E88B5D0005E0A51 /* Build configuration list for PBXProject "OilResetPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A1B1CB1E88B5D0005E0A51;
+			productRefGroup = 04A1B1D51E88B5D0005E0A51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A1B1D31E88B5D0005E0A51 /* OilResetPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A1B1D21E88B5D0005E0A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0434B4651EB227D5005AD8F2 /* Santana-Bold.ttf in Resources */,
+				04A1B2A31E88F22F005E0A51 /* AdsCell.xib in Resources */,
+				0434B45B1EB227C0005AD8F2 /* AvenirLTStd-Light.otf in Resources */,
+				0434B45C1EB227C0005AD8F2 /* AvenirLTStd-Roman.otf in Resources */,
+				0434B4641EB227D5005AD8F2 /* Santana-BlackCondensed.ttf in Resources */,
+				0434B4631EB227D5005AD8F2 /* Santana-Black.ttf in Resources */,
+				04A1B2CB1E89D5D6005E0A51 /* SearchResultCell.xib in Resources */,
+				04A1B1EA1E88B5D0005E0A51 /* LaunchScreen.storyboard in Resources */,
+				04A1B1E71E88B5D0005E0A51 /* Assets.xcassets in Resources */,
+				0434B45A1EB227C0005AD8F2 /* AvenirLTStd-Book.otf in Resources */,
+				0434B4681EB227D5005AD8F2 /* SantanaXtraCondensed.ttf in Resources */,
+				04A1B1E21E88B5D0005E0A51 /* Main.storyboard in Resources */,
+				0434B4671EB227D5005AD8F2 /* Santana.ttf in Resources */,
+				0434B4661EB227D5005AD8F2 /* Santana-RegularCondensed.ttf in Resources */,
+				045E99071E8B791F0051F85B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46FBD3AE9AF16BA8585D679A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OilResetPro/Pods-OilResetPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D01432DC2F79E672F17817D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCE745576318DBA565C411D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OilResetPro/Pods-OilResetPro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A1B1D01E88B5D0005E0A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1B2BF1E8901C4005E0A51 /* MakeViewController.m in Sources */,
+				04A1B2301E88B820005E0A51 /* ResetProcedureViewController.m in Sources */,
+				04CDBAFA1ED625FF00D01D85 /* SavedResetViewController.m in Sources */,
+				04A1B1E51E88B5D0005E0A51 /* OilResetPro.xcdatamodeld in Sources */,
+				048256781ECEF9300045B507 /* METransitions.m in Sources */,
+				041337861EDEE05500A811EE /* SaveData.m in Sources */,
+				04160F1C1E8C3F1900687477 /* ORPNetworkManager.m in Sources */,
+				04A1B1DC1E88B5D0005E0A51 /* AppDelegate.m in Sources */,
+				046502DA1E8D9E2C00EFCF63 /* VinliDetailViewController.m in Sources */,
+				041337891EE0384D00A811EE /* ProfileTableViewCell.m in Sources */,
+				04CDBAF11ED397A500D01D85 /* ProfileViewController.m in Sources */,
+				04A1B21A1E88B712005E0A51 /* Common.m in Sources */,
+				04A1B2191E88B712005E0A51 /* AllFetchData.m in Sources */,
+				04CDBAF41ED5C7CF00D01D85 /* MessageViewController.m in Sources */,
+				046502DF1E8F095E00EFCF63 /* DeviceCell.m in Sources */,
+				045E99021E8B393A0051F85B /* RegisterViewController.m in Sources */,
+				04160F181E8C3A8F00687477 /* UserModel.m in Sources */,
+				04A1B2A21E88F22F005E0A51 /* AdsCell.m in Sources */,
+				046502E21E8F097600EFCF63 /* DeviceTrackCell.m in Sources */,
+				04A1B22D1E88B80C005E0A51 /* ModelViewController.m in Sources */,
+				04A1B2211E88B755005E0A51 /* IntroScreenViewController.m in Sources */,
+				0482567C1ED127500045B507 /* MEFoldAnimationController.m in Sources */,
+				04A1B2241E88B773005E0A51 /* SplashViewController.m in Sources */,
+				042A9F1E1ED1B92E007D5C32 /* MEDynamicTransition.m in Sources */,
+				04A1B2271E88B7CB005E0A51 /* HomeViewController.m in Sources */,
+				04A1B21B1E88B712005E0A51 /* IAPHelper.m in Sources */,
+				04A1B21C1E88B712005E0A51 /* ORPDataClass.m in Sources */,
+				046502D71E8D9E1500EFCF63 /* VinliViewController.m in Sources */,
+				049F15301F0A8B31003E6E25 /* MessageData.m in Sources */,
+				04A1B2B61E88F25D005E0A51 /* SearchResultCell.m in Sources */,
+				045E99051E8B590D0051F85B /* AuthViewController.m in Sources */,
+				04A1B21D1E88B712005E0A51 /* UserHelper.m in Sources */,
+				048256771ECEF9300045B507 /* MEMenuViewController.m in Sources */,
+				04A1B1D91E88B5D0005E0A51 /* main.m in Sources */,
+				048219061EB42D1A00C38673 /* IntroPageViewController.m in Sources */,
+				04A1B2AC1E88F244005E0A51 /* MakeCell.m in Sources */,
+				04A1B2C61E8997C6005E0A51 /* TotalYearsCell.m in Sources */,
+				042A9F1F1ED1B92E007D5C32 /* MEZoomAnimationController.m in Sources */,
+				04A1B2981E88E998005E0A51 /* CargoBay.m in Sources */,
+				04A1B2A71E88F23B005E0A51 /* ModelCell.m in Sources */,
+				04CDBAF71ED5E75600D01D85 /* AskMechanicViewController.m in Sources */,
+				04A1B22A1E88B7E1005E0A51 /* YearViewController.m in Sources */,
+				04A1B2331E88B830005E0A51 /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04A1B1E01E88B5D0005E0A51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A1B1E11E88B5D0005E0A51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A1B1E81E88B5D0005E0A51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A1B1E91E88B5D0005E0A51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A1B2021E88B5D0005E0A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A1B2031E88B5D0005E0A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A1B2051E88B5D0005E0A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15B309B5A4DB445A7113C1B /* Pods-OilResetPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OilResetPro/OilResetPro.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = F6DNE7SJ6R;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OilResetPro",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/OilResetPro/OilResetPro-Prefix.pch";
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = OilResetPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UpTopApps.OilResetPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04A1B2061E88B5D0005E0A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76580A9A752831B37681E812 /* Pods-OilResetPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OilResetPro/OilResetPro.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = F6DNE7SJ6R;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OilResetPro",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/OilResetPro/OilResetPro-Prefix.pch";
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = OilResetPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UpTopApps.OilResetPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A1B1CF1E88B5D0005E0A51 /* Build configuration list for PBXProject "OilResetPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1B2021E88B5D0005E0A51 /* Debug */,
+				04A1B2031E88B5D0005E0A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A1B2041E88B5D0005E0A51 /* Build configuration list for PBXNativeTarget "OilResetPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1B2051E88B5D0005E0A51 /* Debug */,
+				04A1B2061E88B5D0005E0A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04A1B1E31E88B5D0005E0A51 /* OilResetPro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04A1B1E41E88B5D0005E0A51 /* OilResetPro.xcdatamodel */,
+			);
+			currentVersion = 04A1B1E41E88B5D0005E0A51 /* OilResetPro.xcdatamodel */;
+			path = OilResetPro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04A1B1CC1E88B5D0005E0A51 /* Project object */;
+}

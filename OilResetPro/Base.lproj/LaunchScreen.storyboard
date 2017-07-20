@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Santana.ttf">
+            <string>Santana</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="vJM-aU-TMz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Acv-5N-XET">
+                                <rect key="frame" x="93.5" y="173" width="187.5" height="187.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Acv-5N-XET" secondAttribute="height" multiplier="1:1" id="6XC-SW-qcv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oil Reset Pro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUy-8m-nbG">
+                                <rect key="frame" x="37" y="380.5" width="300" height="41"/>
+                                <fontDescription key="fontDescription" name="Santana" family="Santana" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Acv-5N-XET" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6MX-z6-fyF"/>
+                            <constraint firstItem="BUy-8m-nbG" firstAttribute="top" secondItem="Acv-5N-XET" secondAttribute="bottom" constant="20" id="HAz-ND-vo8"/>
+                            <constraint firstItem="Acv-5N-XET" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="0.8" id="P5H-QQ-fTD"/>
+                            <constraint firstItem="Acv-5N-XET" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="RDU-9v-OvQ"/>
+                            <constraint firstItem="BUy-8m-nbG" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.8" id="U9u-KV-hPV"/>
+                            <constraint firstItem="vJM-aU-TMz" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="Vtu-Jw-tqS"/>
+                            <constraint firstItem="BUy-8m-nbG" firstAttribute="centerX" secondItem="Acv-5N-XET" secondAttribute="centerX" id="XJP-nb-Hnr"/>
+                            <constraint firstItem="vJM-aU-TMz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Z1O-GQ-kgl"/>
+                            <constraint firstItem="vJM-aU-TMz" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ari-ek-tvh"/>
+                            <constraint firstItem="vJM-aU-TMz" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="gVC-S0-Gxl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="202"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="750" height="1334"/>
+        <image name="ic_logo" width="326" height="344"/>
+    </resources>
+</document>

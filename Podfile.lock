@@ -1,0 +1,224 @@
+PODS:
+  - ACFloatingTextfield-Objc (1.4)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - APAvatarImageView (1.1.0)
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - Base64 (1.1.2)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - CAAnimationBlocks (0.0.1)
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - CocoaSecurity (1.2.4)
+  - EAIntroView (2.10.0):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
+  - ECSlidingViewController (2.0.3)
+  - FBSDKCoreKit (4.22.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.22.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.22.0):
+    - FBSDKCoreKit
+  - Firebase/Core (3.17.0):
+    - FirebaseAnalytics (= 3.9.0)
+    - FirebaseCore (= 3.6.0)
+  - Firebase/Messaging (3.17.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 1.2.3)
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.6.0):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - FirebaseMessaging (1.2.3):
+    - FirebaseAnalytics (~> 3.8)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Google-Mobile-Ads-SDK (7.19.1)
+  - Google/Core (3.0.3):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.0.3):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleSignIn (4.0.2):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMOAuth2 (1.1.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.9):
+    - GTMSessionFetcher/Full (= 1.1.9)
+  - GTMSessionFetcher/Core (1.1.9)
+  - GTMSessionFetcher/Full (1.1.9):
+    - GTMSessionFetcher/Core (= 1.1.9)
+  - iRate (1.11.7)
+  - jetfire (0.1.5)
+  - JVFloatLabeledTextField (1.1.1)
+  - KxMenu (1)
+  - LMAlertView (1.1.0):
+    - CAAnimationBlocks (~> 0.0.1)
+    - RBBAnimation (~> 0.3.0)
+  - NSUserDefaults-AESEncryptor (0.0.4):
+    - CocoaSecurity (~> 1.2.2)
+  - Protobuf (3.2.1)
+  - RBBAnimation (0.3.0)
+  - Reachability (3.2)
+  - SBJson (5.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SIAlertView (1.3)
+  - SQPersist (1.0.5):
+    - FMDB (~> 2.4)
+  - SVProgressHUD (2.1.2)
+  - UIDevice-Helpers (0.0.2)
+  - VinliNet (1.1.5):
+    - CocoaAsyncSocket (~> 7.4.3)
+    - jetfire (~> 0.1.5)
+  - XCDYouTubeKit (2.5.5)
+
+DEPENDENCIES:
+  - ACFloatingTextfield-Objc (from `https://github.com/ErAbhishekChandani/ACFloatingTextfield.git`)
+  - AFNetworking
+  - APAvatarImageView
+  - ASIHTTPRequest
+  - Base64
+  - CAAnimationBlocks
+  - CocoaSecurity
+  - EAIntroView
+  - ECSlidingViewController
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Firebase/Core
+  - Firebase/Messaging
+  - Google-Mobile-Ads-SDK
+  - Google/SignIn
+  - iRate
+  - JVFloatLabeledTextField
+  - KxMenu
+  - LMAlertView
+  - NSUserDefaults-AESEncryptor
+  - RBBAnimation
+  - SBJson
+  - SDWebImage
+  - SIAlertView
+  - SQPersist
+  - SVProgressHUD
+  - UIDevice-Helpers
+  - VinliNet
+  - XCDYouTubeKit
+
+EXTERNAL SOURCES:
+  ACFloatingTextfield-Objc:
+    :git: https://github.com/ErAbhishekChandani/ACFloatingTextfield.git
+
+CHECKOUT OPTIONS:
+  ACFloatingTextfield-Objc:
+    :commit: 4d763d3c0910c4251871259ae4121caec8644804
+    :git: https://github.com/ErAbhishekChandani/ACFloatingTextfield.git
+
+SPEC CHECKSUMS:
+  ACFloatingTextfield-Objc: 4f8ad8327ac57119c901f2e6109b017cc98c3f12
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  APAvatarImageView: 428dbd0631a150fe876f90bfd7eaa275a19b9209
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CAAnimationBlocks: 1aaca5fb6447a95d83b20cc786992956ef46e4ee
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
+  EAIntroView: 3494b7bbd1212e3a4f7e8d16194a1b00e7b9abb2
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+  ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
+  FBSDKCoreKit: c693bad19feb225469eeff14452ba364522ee48b
+  FBSDKLoginKit: 1fa529fc622d7b32ebeaffbecd377180833c6d30
+  FBSDKShareKit: 21ab3c8d173f4fa20c47c1061f3a9fac5950b5fa
+  Firebase: 4b66b5b59c43edac745b87f0c87e42cdd0279c13
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  FirebaseMessaging: 753d05a925e9eb8eadd09a0ffc9b808578b72fac
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Google: 813c467362eabc11385f5a5cc9ad0cb651a58f4e
+  Google-Mobile-Ads-SDK: 43ac87810e4961f5093024d3525bfe022f956da3
+  GoogleSignIn: d7ad83f13480e1f30453471d00d19b5293ac46af
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
+  GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
+  iRate: adae3f183d83c925ac42d7a2e86e89e838963f57
+  jetfire: 60c16cd6ae0282928e24203eb93f03b89c1929ce
+  JVFloatLabeledTextField: 0e5524b097f102036214dd8279edc8ecf08b5e18
+  KxMenu: c025365712f55fa99feb7830fbb7dea0e912be72
+  LMAlertView: fa4589ea2cb540b888636ff6739fc39b16ac1e4b
+  NSUserDefaults-AESEncryptor: da02cfef056f1e18ebe2748767915f08b274c9c5
+  Protobuf: 2ccbaf193f6c65adc67745453ca0c13234c32796
+  RBBAnimation: cb6cb419f511434ce932f7d0fabf369612fafb4e
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SBJson: 73c848dc34be51fda282fab12bda6c426f5ead08
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SIAlertView: 20c794b55eaf44d888773ea51647cf8907723919
+  SQPersist: f8ccae93561303500f8c3b9957a9f41ee809bfe2
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  UIDevice-Helpers: 0268ee60d57668771fcfadcb79927009f184738e
+  VinliNet: 92dc795ddcdf7a90e66388e4223a776d26e1ec8c
+  XCDYouTubeKit: 86f4e7a9c2baa7b7adf6abfc28ac3ab34927be2d
+
+PODFILE CHECKSUM: 8d189256355854ca2a4e8a4988bdb8f0cc53486e
+
+COCOAPODS: 1.2.0

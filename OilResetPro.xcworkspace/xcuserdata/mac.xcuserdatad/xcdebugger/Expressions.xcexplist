@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[YearViewController setData]:YearViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[VinliDetailViewController tableView:didSelectRowAtIndexPath:]:VinliDetailViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "dClass._allFetchedDataArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SavedResetViewController tableView:didSelectRowAtIndexPath:]:SavedResetViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "dClass._allFetchedDataArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[IntroPageViewController rightButtonClick:]:IntroPageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[pageControl currentPage]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__41-[YearViewController requestForNoOfYears]_block_invoke_2:YearViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__25-[ORPNetworkManager init]_block_invoke:ORPNetworkManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__41-[YearViewController requestForNoOfYears]_block_invoke:YearViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MEMenuViewController tableView:cellForRowAtIndexPath:]:MEMenuViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[UserModel getUser]:UserModel.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ORPNetworkManager urlWithComponent:]:ORPNetworkManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[NSURL URLWithString:API_BaseURL] URLByAppendingPathComponent:component]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UserModel load]:UserModel.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ORPNetworkManager GETVinliData:data:progress:completion:]:ORPNetworkManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSString stringWithFormat:@&quot;%@%@&quot;, API_BaseURL, path]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__41-[RegisterViewController ActionRegister:]_block_invoke_2:RegisterViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "appdelegate().push_token">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
